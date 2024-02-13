@@ -5,11 +5,11 @@
 
 -- UNION only - remove the duplicated data
 -- UNION ALL - add the duplicated data
-SELECT colunm1, colunm2
+SELECT column1, column2
 FROM tableName1
 UNION
-SELECT colunm1, colunm2
-FROM colunm1, colunm2
+SELECT column1, column2
+FROM column1, column2
 FROM tableName2
 
 
