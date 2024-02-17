@@ -49,7 +49,9 @@ VALUES (1, 'Rua da Rosa, 25', 5, 3, 1)
 INSERT
 INTO House(HouseId, Adress, Residents, Rooms, Floors)
 VALUES
-    (2, 'Rua do Ouro, 13', 0, 2, 1), (3, 'Rua do Palo, 78', 1, 1, 1), (4, 'Rua Padroeira, 200', 6, 7, 3)
+    (2, 'Rua do Ouro, 13', 0, 2, 1), 
+    (3, 'Rua do Palo, 78', 1, 1, 1), 
+    (4, 'Rua Padroeira, 200', 6, 7, 3)
 
 CREATE TABLE Building
 (
